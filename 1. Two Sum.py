@@ -5,5 +5,5 @@ class Solution(object):
             compliment = target-num
             if compliment in hashmap:
                 return [hashmap[compliment],i]
-            hashmap[num]=i    
+            hashmap[num]=i  
         
